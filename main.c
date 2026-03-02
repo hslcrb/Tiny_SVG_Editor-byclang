@@ -5,6 +5,8 @@
  * gcc -O2 -o svg_editor.exe svg_editor.c -mwindows -lgdi32 -luser32 -lcomdlg32
  * * 2. Visual Studio (MSVC) 개발자 명령 프롬프트 사용 시:
  * cl /O2 svg_editor.c user32.lib gdi32.lib comdlg32.lib
+ * Dev-C++ 인 경우에는 -mwindows -lgdi32 -luser32 -lcomdlg32 이고
+ * cmd에서 하고싶다면 gcc "C:\Users\user\Documents\Tiny svg editor\main.c" -o "C:\Users\user\Documents\Tiny svg editor\main.exe" -mwindows -lgdi32 -luser32 -lcomdlg32
  */
 
 #include <windows.h>
